@@ -1,0 +1,244 @@
+/*导航*/
+.header{
+    background-color:rgba(0,0,0,0);
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.header a{
+    color: black!important;
+}
+.navbar-header a{
+    color: #00c3f5!important;
+}
+.header .navbar-brand{
+    font-size: 36px!important;
+}
+.header li:hover{
+    border-bottom: 2px solid #00c3f5;
+}
+.header li a:hover{
+    color: #00c3f5!important;
+}
+.header ul .on{
+    border-bottom: 2px solid #00c3f5;
+}
+/*.header ul .on a{*/
+    /*color: #00c3f5!important;*/
+/*}*/
+/*首页*/
+.section{
+    width:100%;
+    overflow: hidden;
+    background-size:cover;
+    color: white;
+    text-align: center;
+}
+#section1{
+    background: url("../img/firecracker.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.section1-btn{
+    margin-top: 20px;
+    background: rgba(255,255,255,.1);
+    border: 1px solid #fff;
+    border-radius: 4px;
+    color: #fff;
+}
+/*关于我*/
+#section2{
+    background: url("../img/violine.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.section2-content .row{
+    background: rgba(0,0,0,.5);
+}
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+@media (max-width: 767px){
+
+}
+/*专业技能*/
+#section3{
+    background: #fff;
+    color: #515151;
+}
+.section3-html{
+    border: 3px solid #00c3f5;
+    border-radius: 10%;
+    position: relative;
+}
+.section3-css{
+    border: 3px solid #00c3f5;
+    border-radius: 10%;
+    position: relative;
+}
+.section3-js{
+    border: 3px solid #00c3f5;
+    border-radius: 10%;
+    position: relative;
+}
+#section3-1-tit,#section3-2-tit,#section3-3-tit{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+#section3-1-txt,#section3-2-txt,#section3-3-txt{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    text-align: left;
+    font-size: 24px;
+    display: none;
+}
+/*我的作品*/
+#section4{
+    background: #fff;
+    color: #515151;
+}
+.section4-content{
+    background: #f4f4f4;
+
+}
+.normal-img{
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+.img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#img2,#img3{
+    display: none;
+}
+.small-img{
+    width: 300px;
+    height: 98px;
+}
+.simg{
+    float: left;
+    border: 1px solid #fff;
+}
+.small-img .on{
+    border: 1px solid #00c3f5;
+}
+.simg img{
+    width: 98px;
+    height: 96px;
+}
+/*#container1{*/
+    /*width: 300px;*/
+    /*height: 300px;*/
+    /*overflow: hidden;*/
+    /*position: relative;*/
+    /*-webkit-box-shadow:0 0 10px #0CC;*/
+    /*-moz-box-shadow:0 0 10px #0CC;*/
+    /*box-shadow:0 0 10px #0CC;*/
+    /*margin-top: 10%;*/
+/*}*/
+/*#list{*/
+    /*position: absolute;*/
+    /*z-index: 1;*/
+    /*width: 1500px;*/
+    /*height: 300px;*/
+/*}*/
+/*#list ul{*/
+    /*padding-left: 0;*/
+/*}*/
+/*#list li{*/
+    /*list-style: none;*/
+    /*float: left;*/
+    /*width: 300px;*/
+    /*height: 300px;*/
+/*}*/
+/*#buttons{*/
+    /*position: absolute;*/
+    /*z-index: 2;*/
+    /*left: 36%;*/
+    /*bottom: 5px;*/
+    /*font-size: 0;*/
+    /*padding: 4px 8px;*/
+    /*border-radius: 12px;*/
+    /*background-color: hsla(0,0%,100%,.3);*/
+/*}*/
+/*#buttons span{*/
+    /*float: left;*/
+    /*margin-right: 10px;*/
+    /*width: 12px;*/
+    /*height: 12px;*/
+    /*border: 1px solid #fff;*/
+    /*border-radius: 100%;*/
+    /*border: none;*/
+    /*background: #ccc;*/
+    /*cursor: pointer;*/
+/*}*/
+/*#buttons span.on{*/
+    /*background: #0CC;*/
+/*}*/
+/*.arrow{*/
+    /*position: absolute;*/
+    /*top: 140px;*/
+    /*z-index: 2;*/
+    /*display: none;*/
+    /*text-decoration: none;*/
+    /*width: 30px;*/
+    /*height: 60px;*/
+    /*font-size: 20px;*/
+    /*line-height: 60px;*/
+    /*text-align: center;*/
+    /*color: #fff;*/
+    /*background: rgba(0, 0, 0, .1);*/
+    /*cursor: pointer;*/
+/*}*/
+/*.arrow:hover{*/
+    /*background-color: rgba(0, 0, 0, .7);*/
+/*}*/
+/*#container1:hover .arrow{*/
+    /*display: block;*/
+/*}*/
+/*#prev{*/
+    /*left: 0;*/
+/*}*/
+/*#next{*/
+    /*right: 0;*/
+/*}*/
+.section4-img{
+
+    border-radius: 10%;
+}
+.section4-txt{
+    /*border: 3px solid #00c3f5;*/
+    /*border-radius: 10%;*/
+}
+/*联系我*/
+#section5{
+    background: #fff;
+    color: #515151;
+}
+.section5-img{
+
+    position: relative;
+}
+.section5-ME,.section5-QQ,.section5-WX{
+    position: absolute;
+    left: 25%;
+    top:10%;
+}
+.section5-QQ,.section5-WX{
+    display: none;
+}
+.section5-txt{
+
+}
+.section5-txt ul{
+    display: inline-block;
+}
+.section5-txt ul li{
+    padding-top: 5px;
+    cursor: pointer;
+}
